@@ -1,0 +1,24 @@
+/* 卡片3点*/
+.posts-item.card::before {
+    content: "";
+    display: block;
+    background: #fc625d;
+    top: 13px;
+    left: 15px;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    box-shadow: 16px 0 #fdbc40, 32px 0 #35cd4b;
+    margin: 0px 2px -7px;
+    z-index: 1000;
+    position: absolute;
+}
+.posts-item.card {
+    padding: 35px 10px 10px 10px;
+}
+/* 卡片3点*/
+
+/* 设置文章五行代码卡片3点*/
+.posts-item{position: relative !important;}
+
+/* 设置文章五行代码卡片3点*/

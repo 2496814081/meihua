@@ -1,0 +1,25 @@
+/*猫耳朵*/
+.dropdown-menu {
+    margin-bottom: 10px;
+    border: none;
+    box-sizing: border-box;
+    padding: 25px 12px 14px;
+    border-radius: 8px;
+    background: url(http://118.178.239.238:8585/pic/tu/cebianmeihua.png) no-repeat 50%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.float-btn.qrcode-btn .hover-show-con {
+    width: 150px;
+    top: -60px;
+    padding: 30px 5px 12px;
+    text-align: center;
+}
+.sidebar {
+    height: auto;
+    padding: 50px 0px 0px;
+    background: url(http://118.178.239.238:8585/pic/tu/bg-cat-main.png) center top / 100% no-repeat;
+    transform: translate3d(0px, 0px, 0px);
+}
+

@@ -1,0 +1,53 @@
+ /*加点颜色加点料*/
+.user-ranking-item.relative {
+    background: #ffd1d8;
+    border-radius: var(--main-radius);
+}  
+  
+.user-ranking-item.relative:nth-child(1) {  
+    background: #ffd1d8;  
+}  
+  
+.user-ranking-item.relative:nth-child(2) {  
+    background: #ffa50085;  
+}  
+  
+.user-ranking-item.relative:nth-child(3) {  
+    background: #ffff0080;  
+}  
+  
+.user-ranking-item.relative:nth-child(4) {  
+    background: #98ff0073;  
+}  
+  
+.user-ranking-item.relative:nth-child(5) {  
+    background: #c4cffa;  
+}  
+  
+.user-ranking-item.relative:nth-child(6) {  
+    background: #c97eff75;  
+}  
+  
+.user-ranking-item.relative:nth-child(7) {  
+    background: #82eee782;  
+}  
+  
+.user-ranking-item.relative:nth-child(8) {  
+    background: #ff559480;  
+}  
+  
+.user-ranking-item.relative:nth-child(9) {  
+    background: #089e0f7d;  
+}
+
+.enlighter-default .enlighter{max-height:400px;overflow-y:auto !important;}.posts-item .item-heading>a {font-weight: bold;color: unset;}.lazyloaded{--lazy-animation: lazy_fade;}@media (max-width:640px) {
+    .meta-right .meta-view{
+      display: unset !important;
+    }
+  }
+  
+  
+  /* 美化个人用户头像 结束*/
+
+
+

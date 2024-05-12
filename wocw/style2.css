@@ -1,0 +1,27 @@
+
+/*更多分类按钮美化*/
+.chat-next a, .theme-pagination .ajax-next a, .theme-pagination .order-ajax-next a{
+  	color: #ffffff;
+ 		padding: 5px 0;
+  	background-color: transparent;
+		display: inline-block;
+    width: 130px;
+    -webkit-border-radius: 0 0 16px 16px;
+    -moz-border-radius: 0 0 16px 16px;
+    border-radius: 0 0 16px 16px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(http://118.178.239.238:8585/pic/tu/gd.png);
+    background-repeat: no-repeat;
+}
+
+.chat-next a:hover, .theme-pagination .ajax-next a:hover, .theme-pagination .order-ajax-next a:hover{
+		background-image: url(http://118.178.239.238:8585/pic/tu/gd.png);
+}.enlighter-default .enlighter{max-height:400px;overflow-y:auto !important;}.posts-item .item-heading>a {font-weight: bold;color: unset;}@media (max-width:640px) {
+		.meta-right .meta-view{
+			display: unset !important;
+		}
+	}
+/*更多按钮美化*/

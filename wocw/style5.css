@@ -1,0 +1,36 @@
+.flex .flex1 {
+  flex: initial;
+  overflow: hidden;
+}
+.icon-cover-icon:hover::after {
+  content: ''; /* 必须要有内容，否则伪元素不会显示 */
+  position: absolute; /* 相对于.icon-cover-icon定位 */
+  bottom: -5px; /* 位于图标下方 */
+  left: 50%; /* 居中 */
+  transform: translateX(-50%); /* 水平居中 */
+  width: 3.5px; /* 小黑点宽度 */
+  height: 3.5px; /* 小黑点高度 */
+  background-color: #00000080; /* 小黑点颜色 */
+  border-radius: 50%; /* 小黑点为圆形 */
+}
+.icon-cover-card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 60px; /* 设置容器的最小宽度为图标的宽度 */
+  margin: 0 auto;
+  background: rgb(255 255 255 / 50%);
+}
+.icon-cover-icon {
+  margin: 0 5px; /* 调整图标之间的间距 */
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.13, 1.34), margin-top 0.3s cubic-bezier(0.25, 0.1, 0.13, 1.34); /* 添加放大效果的过渡 */
+  z-index: 1; /* 确保图标位于最上层 */
+  max-width: 100%; /* 限制图标的最大宽度 */
+  max-height: 100%; /* 限制图标的最大高度 */
+}
+
+.icon-cover-card:hover .icon-cover-icon:hover {
+  transform: scale(1.2) translateY(-5px); /* 放大悬停的图标并向上移动10px */
+  z-index: 2; /* 将悬停图标置于最上层 */
+  margin-top: -20px; /* 为了保持布局稳定，调整上边距 */
+}

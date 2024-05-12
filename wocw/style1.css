@@ -1,0 +1,171 @@
+
+/*粉色细节优化*/
+.navbar-top .navbar-right .sub-menu {
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+.posts-item.card{
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+.zib-widget{
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+.plate-lists .plate-item{
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+.forum-posts{
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+.article{
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+.radius8{
+    -webkit-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    -moz-box-shadow: 0 1px 4px 0 #FFD1D8 inset;
+    box-shadow: inset 0 1px 4px 0 #FFD1D8;
+}
+
+
+/*提醒框变粉*/
+.jb-blue {
+    --this-bg: linear-gradient(43deg, #ff6ac34a 0%, #ff82c1 46%, #ff6ac34a 100%);}
+
+
+
+/*评论美化 - 红色款*/
+body{
+    --acg-color:#fff8fa;
+}
+.dark-theme{
+    --acg-color:#323335;
+}
+.comment .list-inline>.comt-main {
+    border-color: #ff8bb5;
+    background-color: var(--acg-color);
+    background-image: url(https://www.vxras.com/wp-content/themes/vxras/img/shading_blue.png);
+  
+}
+/*按钮颜色修改*/
+ .jb-yellow, .order-type-3 .pay-tag {
+   --this-bg: linear-gradient(43deg, #ff6ac34a 0%, #82e1ff 46%, #ff6ac34a 100%);
+}
+/*购买框颜色*/
+.payvip-icon {
+    color: #ffffff;
+    --this-color: #ffffff;
+    background: linear-gradient(135deg,#ff7faf91 10%,#43b2ff 100%);
+}
+  
+
+
+/*文章标签修改修改*/
+
+.shice {
+    position: relative;
+    top: -2px;
+    margin-right: 4px;
+    height: 20px;
+    pointer-events: none;
+}
+/*文章标签修改修改*/
+
+
+/***粉色代码日间主题模式***/
+body {
+    background-image: url("http://118.178.239.238:8585/pic/tu/bj.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tags-page ul li h2{
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.tags-page ul li p{
+		margin-top:10px
+}
+
+.index-tab ul>li{
+		padding: 2px 17px;
+}
+
+.index-tab ul>li.active {
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+    height: 39px;
+    line-height: 44px;
+    background: url(http://118.178.239.238:8585/pic/tu/flbj.png) repeat;
+    -webkit-background-size: 91px 39px;
+    -moz-background-size: 91px 39px;
+    background-size: 93px 38px;
+}
+
+
+/***粉色代码日间主题模式***/
+ /*加点颜色加点料*/
+.user-ranking-item.relative {
+    background: #ffd1d8;
+    border-radius: var(--main-radius);
+}  
+  
+.user-ranking-item.relative:nth-child(1) {  
+    background: #ffd1d8;  
+}  
+  
+.user-ranking-item.relative:nth-child(2) {  
+    background: #ffa50085;  
+}  
+  
+.user-ranking-item.relative:nth-child(3) {  
+    background: #ffff0080;  
+}  
+.user-ranking-item.relative:nth-child(4) {  
+    background: #98ff0073;  
+}  
+  
+.user-ranking-item.relative:nth-child(5) {  
+    background: #c4cffa;  
+}  
+  
+.user-ranking-item.relative:nth-child(6) {  
+    background: #c97eff75;  
+}  
+  
+.user-ranking-item.relative:nth-child(7) {  
+    background: #82eee782;  
+}  
+  
+.user-ranking-item.relative:nth-child(8) {  
+    background: #ff559480;  
+}  
+  
+.user-ranking-item.relative:nth-child(9) {  
+    background: #089e0f7d;  
+}
+
+.enlighter-default .enlighter{max-height:400px;overflow-y:auto !important;}.posts-item .item-heading>a {font-weight: bold;color: unset;}.lazyloaded{--lazy-animation: lazy_fade;}@media (max-width:640px) {
+    .meta-right .meta-view{
+      display: unset !important;
+    }
+  }
+
+
+
+  
+

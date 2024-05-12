@@ -1,0 +1,33 @@
+/*悬浮按钮*/
+.float-right.round .float-btn {
+    position: relative;
+    display: block;
+    height: 56px;
+    width: 56px;
+    padding: 20px 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFD1D8;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 6px 0 #FFD1D8;
+    -moz-box-shadow: 0 0 6px 0 #FFD1D8;
+    box-shadow: 0 0 6px 0 #FFD1D8;
+    cursor: pointer;
+}
+.fa-toggle-theme::after, .fa-toggle-theme::before {
+    font-size: 18px;
+}
+.float-right.round:hover .float-btn:hover {
+    -moz-box-shadow: 0 0 6px 0 #FFB5C3;
+    box-shadow: 0 0 6px 0 #fc6976;
+        background-color: #FFB5C3;
+}
+.float-btn .hover-show-con {
+    right: 40px;
+    margin-right: 25px;
+}

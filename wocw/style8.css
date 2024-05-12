@@ -1,0 +1,39 @@
+/*夜间深蓝配色*/
+.dark-theme{
+--blur-bg: linear-gradient(90deg,#2c3479,#6b35f5);
+--main-bg-color: #272c5a;
+--body-bg-color: #272c5a;
+}
+.dark-theme .posts-item {
+    box-shadow: inset 0 2px 8px 0 #88f;
+    border: 2px solid #88f;
+}
+.dark-theme .float-right.round .float-btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #88f;
+    box-shadow: 0 0 6px 0 #88f;
+}
+.dark-theme .float-right.round:hover .float-btn:hover {
+    box-shadow:0 0 6px 0 #88f;
+    background-color:#88f;
+}
+
+.dark-theme .header-slider-search .line-form {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #88f;
+}
+.dark-theme .zib-widget {
+    box-shadow: inset 0 2px 8px 0 #88f;
+}
+.dark-theme .radius8 {
+    box-shadow: inset 0 2px 8px 0 #88f;
+}
+.dark-theme .leke {
+    box-shadow: inset 0 5px 10px 0 #88f;
+}
+.dark-theme .cardhu {
+    box-shadow: inset 0 2px 8px 0 #88f;
+}
+
+

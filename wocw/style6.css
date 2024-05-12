@@ -1,0 +1,23 @@
+
+/*分类栏目美化*/
+.index-tab ul>li.active {
+    color: #ffffff00!important;
+    background-color: #ffffff00!important;
+    border-radius: 6px;
+    z-index: 1;
+    position: relative;
+    height: 39px;
+    line-height: 44px;
+    background: url(https://img.qovv.cn/2024/04/24/6628cee18628c.png) repeat;
+    -webkit-background-size: 91px 39px;
+    -moz-background-size: 91px 39px;
+    background-size: 91px 39px;
+}
+.index-tab ul>li {
+    display: inline-block;
+    padding: 2px 17px;
+    font-weight: 500;
+    border-radius: 20px;
+    margin: 0 1px;
+}
+
